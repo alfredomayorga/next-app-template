@@ -17,6 +17,8 @@
     "prepare": "husky install"
   },
   "dependencies": {
+    "@commitlint/cli": "^17.1.2",
+    "@commitlint/config-conventional": "^17.1.0",
     "eslint-config-fbjs": "^4.0.0",
     "husky": "^8.0.1",
     "next": "12.3.1",
