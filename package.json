@@ -9,7 +9,7 @@
     "npm": "please-use-bun"
   },
   "scripts": {
-    "dev": "next dev",
+    "dev": "cross-env NODE_OPTIONS='--inspect ' next dev",
     "build": "next build",
     "start": "next start",
     "test": "cypress run --component && cypress run",
@@ -20,6 +20,7 @@
   "dependencies": {
     "@commitlint/cli": "^17.1.2",
     "@commitlint/config-conventional": "^17.1.0",
+    "cross-env": "^7.0.3",
     "cypress": "^10.10.0",
     "eslint-config-fbjs": "^4.0.0",
     "husky": "^8.0.1",
