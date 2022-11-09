@@ -4,9 +4,8 @@
   "private": true,
   "engines": {
     "node": ">=14.0.0",
-    "bun": ">=0.1.13",
-    "yarn": "please-use-bun",
-    "npm": "please-use-bun"
+    "yarn": "^1.22.19",
+    "npm": "please-use-yarn"
   },
   "scripts": {
     "dev": "cross-env NODE_OPTIONS='--inspect ' next dev",
